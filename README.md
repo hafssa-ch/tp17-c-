@@ -9,9 +9,8 @@ Une question bonus demande d’expliquer la différence entre :
 #include "Point3D.h" → inclut un fichier local au projet
 #include <Point3D.h> → inclut un fichier dans les chemins standards des bibliothèques
 # Sortie attendue
-Lorsque le programme est exécuté, on devrait obtenir quelque chose comme :
-Point 1 : (1, 2, 3)
-Point 2 : (4, 5, 6)
+<img width="511" height="113" alt="image" src="https://github.com/user-attachments/assets/b0e36a39-e4ae-4015-a73b-b15fa816da43" />
+
 
 # Exercice 2 – Mini-bibliothèque géométrique
 ## Description
@@ -26,8 +25,7 @@ Chaque classe possède un constructeur par défaut et un constructeur paramétr�
 Le main.cpp utilise cette bibliothèque pour créer des points et calculer le périmètre d’un triangle
 Un Makefile minimal permet de compiler facilement le programme.
 ## Sortie attendue
-Exemple d’exécution :
-Périmètre du triangle : 12.34
+<img width="487" height="78" alt="image" src="https://github.com/user-attachments/assets/9cb8588f-d308-4eb3-9aa5-3fa653f9fc54" />
 
 # Exercice 3 – Création d’une librairie statique (.a) ou partagée (.so)
 ## Description
@@ -46,9 +44,8 @@ g++ testLib.cpp -I./include -L. -lutil -o testLib
 Pour la librairie partagée, LD_LIBRARY_PATH doit pointer vers le dossier contenant libutil.so.
 
 ## Sortie attendue
-Exemple d’exécution :
-[Logger] Message : Test de la librairie
-[Config] Clé 'username' : admin
+<img width="543" height="139" alt="image" src="https://github.com/user-attachments/assets/636de325-f89a-4d73-bc19-9eb7c0d6df1e" />
+
 
 
 # Exercice 4 – Classe template et fichier d’en-tête uniquement
@@ -64,12 +61,6 @@ Matrix<double, 3, 3> pour des matrices 3×3 de réels
 La compilation se fait avec un seul objet : main.o ; aucune compilation séparée pour Matrix n’est nécessaire.
 
 ## Sortie attendue
-Exemple d’exécution :
-Matrice int 2x2 :
-1 2
-3 4
-Matrice double 3x3 :
-1.1 2.2 3.3
-4.4 5.5 6.6
-7.7 8.8 9.9
+<img width="267" height="440" alt="image" src="https://github.com/user-attachments/assets/39a6bf8f-b969-4276-922e-dd3578c1c403" />
+
 
